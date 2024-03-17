@@ -12,8 +12,8 @@ def main():
     output_terminal(text2)
     output_file(text2, path)
 
-    path = "data/text.csv"
-    text2 = input_from_file_pandas(path)
+    path2 = "data/text.csv"
+    text2 = input_from_file_pandas(path2)
     output_terminal(text2)
     output_file(text2, path)
 
